@@ -1,0 +1,129 @@
+{
+  "identity": {
+    "name": "RAS RAJ – The Mithai Shop",
+    "location": "Amethi, Uttar Pradesh, India",
+    "tagline": "The Taste of Tradition",
+    "usp": "We Do Not Weight Box / हम डिब्बा नहीं तोलते",
+    "aesthetic": "Premium Luxury Indian Festive",
+    "tone": "Warm, Celebratory, Trustworthy, Royal"
+  },
+  "typography": {
+    "font_family": {
+      "heading": "Playfair Display, serif",
+      "body": "Manrope, sans-serif",
+      "hindi": "Rozha One, serif",
+      "accent": "Great Vibes, cursive"
+    },
+    "scale": {
+      "h1": "text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight",
+      "h2": "text-3xl md:text-4xl font-semibold tracking-tight",
+      "h3": "text-2xl md:text-3xl font-medium",
+      "body_lg": "text-lg md:text-xl leading-relaxed",
+      "body_base": "text-base leading-relaxed",
+      "caption": "text-sm text-muted-foreground"
+    }
+  },
+  "colors": {
+    "palette": {
+      "primary": "#9B111E",
+      "primary_foreground": "#FFFFFF",
+      "secondary": "#D4AF37",
+      "secondary_foreground": "#2A2A2A",
+      "accent": "#B8962E",
+      "background": "#FFF6E5",
+      "foreground": "#2A2A2A",
+      "card": "#FFFFFF",
+      "card_foreground": "#2A2A2A",
+      "muted": "#F5E6D3",
+      "muted_foreground": "#78350F",
+      "border": "#E6D5BC",
+      "input": "#FFFFFF",
+      "ring": "#D4AF37"
+    },
+    "gradients": {
+      "gold": "linear-gradient(135deg, #D4AF37 0%, #B8962E 100%)",
+      "royal_red": "linear-gradient(135deg, #9B111E 0%, #7A0C16 100%)",
+      "cream_overlay": "linear-gradient(to bottom, rgba(255,246,229,0) 0%, #FFF6E5 100%)"
+    }
+  },
+  "visual_enhancers": {
+    "radius": "0.75rem",
+    "shadows": {
+      "card": "0 4px 6px -1px rgba(155, 17, 30, 0.1), 0 2px 4px -1px rgba(155, 17, 30, 0.06)",
+      "hover": "0 10px 15px -3px rgba(212, 175, 55, 0.2), 0 4px 6px -2px rgba(212, 175, 55, 0.1)",
+      "gold_glow": "0 0 15px rgba(212, 175, 55, 0.3)"
+    },
+    "textures": {
+      "noise": "url(\"data:image/svg+xml,...noise_svg_placeholder...\")",
+      "paper": "subtle grain texture overlay opacity 0.03"
+    },
+    "animations": {
+      "hover_lift": "transition-all duration-300 hover:-translate-y-1 hover:shadow-lg",
+      "fade_in": "animate-in fade-in zoom-in duration-500",
+      "shimmer": "animate-shimmer bg-gradient-to-r from-transparent via-white/20 to-transparent"
+    }
+  },
+  "layout_strategy": {
+    "type": "Mobile-First PWA",
+    "container": "container mx-auto px-4 md:px-6 max-w-7xl",
+    "spacing": {
+      "section_gap": "py-12 md:py-20",
+      "element_gap": "gap-4 md:gap-6"
+    },
+    "grid_system": {
+      "products": "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-8",
+      "categories": "flex overflow-x-auto snap-x gap-4 pb-4 md:grid md:grid-cols-6"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#9B111E] text-white hover:bg-[#7A0C16] shadow-md rounded-full px-6 py-2 font-medium transition-transform active:scale-95",
+      "secondary": "bg-transparent border-2 border-[#D4AF37] text-[#9B111E] hover:bg-[#FFF6E5] rounded-full px-6 py-2 font-medium",
+      "icon": "p-2 rounded-full hover:bg-[#F5E6D3] text-[#9B111E] transition-colors"
+    },
+    "cards": {
+      "product": "bg-white rounded-xl shadow-sm border border-[#E6D5BC] overflow-hidden group hover:border-[#D4AF37] transition-colors",
+      "category": "aspect-square rounded-full bg-[#F5E6D3] flex items-center justify-center border-2 border-transparent hover:border-[#D4AF37]"
+    },
+    "navigation": {
+      "mobile_bottom": "fixed bottom-0 left-0 right-0 bg-white border-t border-[#E6D5BC] z-50 flex justify-around py-3 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)]",
+      "desktop_header": "sticky top-0 z-40 bg-[#FFF6E5]/80 backdrop-blur-md border-b border-[#D4AF37]/30"
+    }
+  },
+  "image_urls": {
+    "hero_banner": [
+      {
+        "url": "https://images.pexels.com/photos/28769884/pexels-photo-28769884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Festive Indian Sweets Spread"
+      },
+      {
+        "url": "https://images.pexels.com/photos/8887025/pexels-photo-8887025.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Vibrant Sweets in Bowls"
+      }
+    ],
+    "products": {
+      "gulab_jamun": "https://images.pexels.com/photos/14610769/pexels-photo-14610769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "mixed_sweets": "https://images.unsplash.com/photo-1755090154823-2832067d402b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDR8MHwxfHNlYXJjaHw0fHxwcmVtaXVtJTIwaW5kaWFuJTIwc3dlZXRzJTIwbWl0aGFpJTIwa2FqdSUyMGthdGxpJTIwZ3VsYWIlMjBqYW11biUyMGx1eHVyeSUyMHBsYXRlfGVufDB8fHx8MTc3MTM5MzMxMXww&ixlib=rb-4.1.0&q=85",
+      "gift_box": "https://images.pexels.com/photos/35746481/pexels-photo-35746481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    "branding": {
+      "logo_url": "https://customer-assets.emergentagent.com/job_rasraj-ecommerce/artifacts/9xpxuu3p_rasraj_logo.jpg"
+    }
+  },
+  "instructions_to_main_agent": [
+    "Implement the 'We Do Not Weight Box' USP prominently on the Product Page and Cart.",
+    "Use the Red (#9B111E) for primary actions (Add to Cart, Checkout) to stimulate appetite and urgency.",
+    "Use Gold (#D4AF37) for borders, accents, and premium badges.",
+    "Ensure the PWA feels 'native' by disabling text selection on UI elements and using proper touch targets.",
+    "The 'Language Toggle' (EN/HI) should be easily accessible in the Header.",
+    "Mock the 'Checkout' process with simple UPI/COD options as per constraints.",
+    "Use 'sonner' for toast notifications (e.g., 'Added to cart').",
+    "For the 'Admin Dashboard', simplify the layout but keep the Red/Gold accents for consistency."
+  ],
+  "UNIVERSAL_GUIDELINES": {
+    "animation_policy": "Use smooth, staggered animations for lists. No 'transition: all'.",
+    "accessibility": "Ensure text contrast > 4.5:1. Use ARIA labels for icon-only buttons.",
+    "dark_mode_strategy": "The design is LIGHT MODE focused. If dark mode is implemented, map Cream -> Dark Charcoal (#1A1A1A) and Red -> Brighter Red (#FF4D4D).",
+    "component_reuse": "Check /components/ui before building new ones. Customize Shadcn components via tailwind classes."
+  }
+}
